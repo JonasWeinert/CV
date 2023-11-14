@@ -1,17 +1,15 @@
 ---
-name: Bryan
-surname: Jenks
-position: "Information Technology Associate"
-address: "Covered California"
-profilepic: "./img/me.jpg"
-www: "bryanjenks.dev"
-email: "bryan@bryanjenks.dev"
-github: tallguyjenks
-linkedin: bryanjenks
-orcid: 0000-0002-9604-3069
+name: Jonas
+surname: Weinert
+position: "Data Scientist & Global Health Economist"
+#www: "github.com/JonasWeinert"
+email: "jonas.weinert@icloud.com"
+phone: +44 7987419642
+github: JonasWeinert
+linkedin: jweinert1997
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: 990000
-aboutme: "I have been writing production software in a variety of languages for over 5 years for various California State Government Agencies. I have a deep driven passion for software, automation, and data Engineering. This very CV was even compiled with code."
+headcolor: 2E2E2E
+aboutme: "I love economics & econometrics, where I focus on expeerimental and quasi-experimental causal inference for impact evaluations. I am also fascinated with finding ways to leverage data and technology to generate visualisations, graphs and other inisights in organisational settings. This very CV was even compiled with code."
 docname: CV
 output: vitae::awesomecv
 ---
@@ -37,21 +35,6 @@ source(file = here("r","data.r"))
 
 ```
 
-# Employment
-
-```{r EMPLOYMENT}
-
-work %>%
-  detailed_entries(
-    with = title,
-    what = unit,
-    why = detail,
-    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
-    where = where
-  )
-
-```
-
 # Education
 
 ```{r EDUCATION}
@@ -62,6 +45,21 @@ edu %>%
     what = degree,
     why = detail,
     when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Work experience
+
+```{r EMPLOYMENT}
+
+work %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
     where = where
   )
 
