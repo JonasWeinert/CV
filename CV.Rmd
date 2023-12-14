@@ -91,9 +91,9 @@ skills %>%
   )
 
 ```
+\
 
-
-
+**[References available upon request](mailto:jonas.weinert@icloud?subject=Please provide some references to support your application).**
 
 <!-- # Certifications -->
 
