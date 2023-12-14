@@ -4,7 +4,7 @@ surname: Weinert
 position: "Data Scientist & Global Health Economist"
 #www: "github.com/JonasWeinert"
 email: "jonas.weinert@icloud.com"
-phone: +44 7987419642
+phone: +44 7897419642
 github: JonasWeinert
 linkedin: jweinert1997
 date: "`r format(Sys.time(), '%B %Y')`"
