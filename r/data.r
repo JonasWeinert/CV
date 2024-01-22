@@ -47,18 +47,18 @@ edu <- tribble(
     ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
     "The London School of Economics and Political Science", 2021, 2022, "MSc. Global Health Policy with focus on health economics | Distinction", "UK", "Analysis of Global Health issues through economics, demographics, and public policy. Focus on health economics and policy evaluation through applied econometrics.",
     "The London School of Economics and Political Science", 2021, 2022, "MSc. Global Health Policy with focus on health economics | Distinction", "UK", "Heinrich Böll Scholar.",
-    "University of Tübingen", 2017, 2020, "B.A. Political Science and Cultural Anthropology | First Class with Honours", "Germany", "Thesis: 10,000-word analysis of divergence in Schengen visa issuance quotas using multivariate regression.",
-    "University of Tübingen", 2017, 2020, "B.A. Political Science and Cultural Anthropology | First Class with Honours", "Germany", "Heinrich Böll Scholar."
+    "University of Tübingen", 2017, 2020, "B.A. Political Science and Cultural Anthropology | GPA 4.0", "Germany", "Thesis: 10,000-word analysis of divergence in Schengen visa issuance quotas using multivariate regression.",
+    "University of Tübingen", 2017, 2020, "B.A. Political Science and Cultural Anthropology | GPA 4.0", "Germany", "Heinrich Böll Scholar."
     
     )
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2022, "Present", NA, "Washington (DC), USA", "Randomized Control Trials & Quasi Experimental Econometric Impact Studies",
-    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2022, "Present", NA, "Washington (DC), USA", "Using machine learning for cross country heterogeneity testing",
-    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2022, "Present", NA, "Washington (DC), USA", "Analysing, Visualising, and Presenting household and individual data from thousands of households",
-    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2022, "Present", NA, "Washington (DC), USA", "Work in different Western African countries, mostly Senegal, Burkina-Faso, Mauritania, and Niger",
-    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2022, "Present", NA, "Washington (DC), USA", "Skills and technology: Econometrics, machine learning, development economics, R, Python, Stata",
+    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2023, "Present", NA, "Washington (DC), USA", "Randomized Control Trials & Quasi Experimental Econometric Impact Studies",
+    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2023, "Present", NA, "Washington (DC), USA", "Using machine learning for cross country heterogeneity testing",
+    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2023, "Present", NA, "Washington (DC), USA", "Analysing, Visualising, and Presenting household and individual data from thousands of households",
+    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2023, "Present", NA, "Washington (DC), USA", "Work in different Western African countries, mostly Senegal, Burkina-Faso, Mauritania, and Niger",
+    "Research Consultant: Development Impact Evaluations (DIME)", "World Bank Group", "September", 2023, "Present", NA, "Washington (DC), USA", "Skills and technology: Econometrics, machine learning, development economics, R, Python, Stata",
     "Consultant: Monitoring & Evaluation", "Itad Ltd", "September", 2022, "December", 2023, "London, UK", "Evaluation of the Global Fund Service Delivery Innovations Strategic Initiative: Human Resources for Health and Quality Improvement",
     "Consultant: Monitoring & Evaluation", "Itad Ltd", "September", 2022, "December", 2023, "London, UK", "Liaised between and communicated results to international and local stakeholders from the Global Fund to fight Aids Malaria and TB, 3 implementing partners of the initiative (World Health Organisation, Jhpiego, and the KIT Royal Tropical Institute), data collection partners in the five countries, and the principal investigators",
     "Consultant: Monitoring & Evaluation", "Itad Ltd", "September", 2022, "December", 2023, "London, UK", "Organised, coordinated, and oversaw data collection with more than 50 enumerators in 4 countries",

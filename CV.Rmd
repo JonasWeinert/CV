@@ -9,7 +9,7 @@ github: JonasWeinert
 linkedin: jweinert1997
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 2E2E2E
-aboutme: "Economics & econometrics nerdwith a passion for expeerimental and quasi-experimental causal inference in impact evaluations. I am also fascinated with finding ways to leverage data and technology to generate visualisations, graphs and other inisights in organisational settings."
+aboutme: "Economics & econometrics enthusiast with a passion for experimental and quasi-experimental causal inference in impact evaluations. I am also fascinated with finding ways to leverage data and technology to generate automations, visualisations, and other insights in organisational settings."
 docname: CV
 output: vitae::awesomecv
 ---
@@ -91,8 +91,9 @@ skills %>%
   )
 
 ```
-\
 
+**Availability: 2-3 days pw and/or ft in May/June. Daily Rate: 450 USD, subject to negotiation.**
+\
 **[References available upon request](mailto:jonas.weinert@icloud?subject=Please provide some references to support your application).**
 
 <!-- # Certifications -->
